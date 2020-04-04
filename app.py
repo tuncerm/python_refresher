@@ -36,7 +36,7 @@ if __name__ == '__main__':
 # >>> query.all()
 #
 # person = Person(name='Amy')
-# db.session.add(person)
+# db.session.add(person)        add_all([array])
 # db.session.commit()
 
 # Flask-SQLAlchemy Data Types
