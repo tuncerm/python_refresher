@@ -29,6 +29,10 @@ if __name__ == '__main__':
     app.run()
 
 #
+#   req.args.get('field')   // query params
+#   req.form.get('field')   // form data
+#   req.data   // json data --> json.loads(req.data) === returns a data dictionary
+#
 # >>> Person.query.all()
 # >>> Person.query.first()
 # >>> query = Person.query.filter(Person.name == 'Amy')
